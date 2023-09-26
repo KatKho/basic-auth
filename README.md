@@ -37,9 +37,9 @@ DATABASE_URL=postgres://localhost:5434/database_name
 
 ## URLs
 
-- [Main branch]()
-- [PR]()
-- [GitHub Actions]()
+- [Main branch](https://authentication-db1c.onrender.com)
+- [PR](https://github.com/KatKho/basic-auth/pull/1)
+- [GitHub Actions](https://github.com/KatKho/basic-auth/actions)
 
 ## Contributors
 
