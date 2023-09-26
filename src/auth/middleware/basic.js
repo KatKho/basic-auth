@@ -24,14 +24,18 @@ const basicAuth = async (req, res, next) => {
 
     console.log('Valid:', valid);
 
+
     if (valid) {
       // Attach the authenticated user to the request object
       req.user = user;
+      console.log('Authentication succeeded');
       next();
     } else {
+      console.log('Authentication failed');
       throw new Error('Invalid User');
     }
   } catch (error) {
+    console.error(error);
     return res.status(403).send('Invalid Login');
   }
 };
